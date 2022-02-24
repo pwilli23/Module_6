@@ -14,4 +14,11 @@
 
 `housing_units_by_years = housing_units_by_year.groupby('year').mean()`
 
+* After creating the DataFrame, we used the `hvplot.bar` function to create an interactive bar chart visual:
+
+### Second Analysis: Calculate and Plot the Average Sale Prices per Square Foot
+
+* Started to create our Prices Per Square Foot DataFrame by grouping the entire existing SFO DataFrame by year and found the mean for each
+* Then used the `drop()` function to drop the irrelevant Housing Units column from the Prices Per Square Foot DataFrame for our analysis
+* After finalizing the DataFrame, we used the `hvplot.line()` function to create a line chart visual that looked at the trends between sale price per square foot and gross rent
 
