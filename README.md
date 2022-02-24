@@ -26,4 +26,4 @@
 * Took a closer look at the average sale price per square foot by using interactive widgets to slice data by neighborhood
 * Started by using the `groupby[['neighborhood','year']].mean()` function to create a DataFrame that sorts the data by neighborhood and year
 * Used the `.drop()` function to drop the Housing Units column from the DataFrame
-* Created a line plot using the `hvplot.line()` function and included the `groupby('neighborhood')` function inside of the visual to create a widget that would allow you to see the data visually by selecting different neighborhoods
+* Created a line plot using the `hvplot.line()` function and included the `groupby('neighborhood')` function inside of the visual to create a widget that would allow you to see the different neighborhoods pricing data
